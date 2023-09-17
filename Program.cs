@@ -79,7 +79,7 @@ do
             }
             break;
         case "5":
-            Console.WriteLine("Введите первое число: ");
+            Console.WriteLine("Введите число: ");
             double.TryParse(Console.ReadLine(), out number1);
             Console.WriteLine("Введите степень, в которую нужно возвести: ");
             double.TryParse(Console.ReadLine(), out number2);
@@ -90,7 +90,7 @@ do
             break;
         case "6":
             number2 = 1;
-            Console.WriteLine("Введите первое число: ");
+            Console.WriteLine("Введите число: ");
             number1 = Convert.ToDouble(Console.ReadLine());
             if (number1 < 0)
             {
